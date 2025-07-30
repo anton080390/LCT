@@ -1,0 +1,17 @@
+.navLink {
+  text-decoration: none;
+  color: #ffffff;
+  /* margin: rem 0rem; */
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.isActive {
+  color: rgb(249, 247, 247);
+}
+.navLink:hover,
+.navLink:focus {
+  color: #bcbbbb;
+  /* font-weight: 700; */
+}

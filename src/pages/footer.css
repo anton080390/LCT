@@ -1,0 +1,75 @@
+.grid-container {
+  background-color: #000000;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.contact-block {
+  margin-right: 2rem;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 48px;
+  margin-right: 1rem;
+  transition: transform 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.4);
+  color: red;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.company-description {
+  font-size: 32px;
+  color: #fff;
+  margin: 0;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 20rem;
+  border: 5px solid rgb(211, 210, 210);
+}
+.contacts p {
+  font-size: 1.2rem;
+}
+@media (max-width: 600px) {
+  .contacts {
+    justify-content: center;
+    margin-right: 0;
+  }
+  .contact-block {
+    margin-right: 0;
+  }
+}

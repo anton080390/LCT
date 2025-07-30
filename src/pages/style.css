@@ -1,0 +1,269 @@
+:root {
+  --orange: #e8511c;
+}
+#hero,
+#about,
+#services,
+#footer {
+  min-height: 100vh; /* Каждая секция будет занимать всю высоту экрана */
+}
+
+/* EL2-why-section.css */
+.why-page {
+  background-color: #412b14;
+  align-items: center;
+  margin: 0px;
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 1.25rem;
+  box-shadow: 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.6);
+  margin: 1rem;
+  width: 10rem;
+  min-height: 9rem;
+  opacity: 0;
+  transform: translateX(-17.625rem);
+  transition: opacity 3.5s, transform 1.5s;
+}
+
+.block.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.blockText {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+}
+
+/* EL1-hero-section.css */
+.hero-container {
+  /* height: 52rem; */
+  flex-direction: column;
+  display: flex;
+}
+
+.hero-block,
+.hero-block1 {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  height: 15rem;
+  margin: 0;
+  background-color: aliceblue;
+  opacity: 0.7;
+}
+
+.hero-salary-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6rem;
+  color: red;
+}
+
+.salary-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.1rem;
+}
+
+.hero-hr {
+  width: 7rem;
+  position: absolute;
+  left: 14.5rem;
+  border: 0.125rem solid red;
+  top: 3.9rem;
+  transform: rotate(15deg);
+  transform-origin: 0 0;
+}
+.hero-hr1 {
+  width: 7rem;
+  position: absolute;
+  left: 14.3rem;
+  border: 0.125rem solid red;
+  top: 5.7rem;
+  transform: rotate(-15deg);
+  transform-origin: 0 0;
+}
+.hero-background {
+  background-image: url("../images/nika-tera.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top 37%;
+  height: 100%;
+  width: 100%;
+  /* opacity: 0.3; */
+  position: absolute;
+}
+
+.icon:hover {
+  transform: scale(1.05);
+}
+/*EL-8 style */
+.salary-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 1.25rem;
+  box-shadow: 0.625rem 0.625rem 0 rgba(0, 0, 0, 0.6);
+  margin: 1rem;
+  height: 12rem;
+  min-height: 9rem;
+  align-content: center;
+  opacity: 0;
+  transform: translateX(-800px);
+  transition: opacity 0.1s, transform 2s;
+}
+
+.salary-block.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.salaryPar {
+  color: #e8511c;
+  font-size: 2.4rem;
+  line-height: 3.0475rem;
+}
+
+/* PricesSection.css */
+.prices-container {
+  height: 50rem;
+  padding: 2rem;
+}
+
+.swiper {
+  max-width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #e8511c !important;
+  height: 0.7rem !important;
+  width: 0.7rem !important;
+}
+
+/* animation */
+.progress-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 0.5rem;
+  background: var(--orange);
+  bottom: 0;
+  z-index: 1;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hero-button {
+  animation: fadeIn 3.5s ease-in-out forwards,
+    slideInFromRight 4.5s ease-in-out forwards;
+}
+
+/* mentor*/
+
+.animate-image {
+  opacity: 0;
+  transition: opacity 6s;
+}
+
+.animate-text {
+  opacity: 0;
+  transform: translateX(-10%);
+  transition: transform 4s, opacity 6s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px) rotate(5deg);
+  }
+  50% {
+    transform: translateX(5px) rotate(-5deg);
+  }
+  75% {
+    transform: translateX(-5px) rotate(5deg);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.icon:hover {
+  animation: shake 0.5s infinite;
+}
+
+@media (max-width: 600px) {
+  .hero-background {
+    opacity: 1;
+  }
+  .hero-h2 {
+    margin-top: 0.1rem;
+  }
+  .hero-container {
+    height: 53rem;
+    flex-direction: row;
+  }
+  .liSwiper {
+    max-width: 100%;
+  }
+  .slide-container {
+    max-width: 5rem;
+  }
+  .block2 {
+    flex-direction: column-reverse;
+  }
+}
