@@ -59,7 +59,7 @@ const HeroSection = () => {
         xs={12}
         md={6}
         sx={{
-          display: "flex",
+          display: { xs: "none", sm: "flex" },
           flexDirection: "row",
           justifyContent: "center",
           alignItems: "center",

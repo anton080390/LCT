@@ -246,24 +246,35 @@
   animation: shake 0.5s infinite;
 }
 
-@media (max-width: 600px) {
-  .hero-background {
-    opacity: 1;
-  }
-  .hero-h2 {
-    margin-top: 0.1rem;
-  }
+@media (min-width: 600px) and (max-width: 1024px) {
   .hero-container {
-    height: 53rem;
-    flex-direction: row;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
   }
-  .liSwiper {
-    max-width: 100%;
+
+  .hero-block1 {
+    margin-top: 10rem !important;
+    padding: 0 1rem;
+    text-align: center;
   }
-  .slide-container {
-    max-width: 5rem;
+
+  .hero-block1 h2 {
+    font-size: 2.5rem !important;
+    text-align: center;
   }
-  .block2 {
-    flex-direction: column-reverse;
+
+  .hero-grid-1 {
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  }
+
+  .hero-background {
+    background-position: center center;
+    background-size: cover;
   }
 }
