@@ -54,7 +54,7 @@ export default function Navigation({ scrollToSection }) {
               onClick={handleDrawerOpen}
               color="inherit"
               sx={{
-                display: { xs: "block", md: "none" },
+                display: { xs: "block", sm: "block", md: "none" },
               }}
             >
               <MenuIcon />
