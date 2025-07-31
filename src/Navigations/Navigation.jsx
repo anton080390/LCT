@@ -47,14 +47,14 @@ export default function Navigation({ scrollToSection }) {
       >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
-            {/* Меню-кнопка для мобильных устройств */}
+            {/* Меню-кнопка для мобильных и планшетов */}
             <IconButton
               size="large"
               aria-label="open drawer"
               onClick={handleDrawerOpen}
               color="inherit"
               sx={{
-                display: { xs: "block", sm: "block", md: "none" },
+                display: { xs: "block", sm: "block", md: "none" }, // Показывать на мобильных и планшетах
               }}
             >
               <MenuIcon />
@@ -64,7 +64,7 @@ export default function Navigation({ scrollToSection }) {
             <Box
               sx={{
                 flexGrow: 1,
-                display: { xs: "none", md: "flex" },
+                display: { xs: "none", sm: "none", md: "flex" },
                 justifyContent: "flex-end",
               }}
             >
@@ -92,7 +92,7 @@ export default function Navigation({ scrollToSection }) {
         </Container>
       </AppBar>
 
-      {/* Drawer для мобильных устройств */}
+      {/* Drawer для мобильных и планшетных устройств */}
       <Drawer
         anchor="left"
         open={isDrawerOpen}
