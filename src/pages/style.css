@@ -297,13 +297,12 @@
 
   .hero-block1 {
     margin-top: 0 !important;
-    padding: 1rem;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 30%; /* чтобы текст центрировался по вертикали */
+    height: 4rem;
   }
 
   .hero-block1 h2 {
