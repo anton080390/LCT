@@ -296,13 +296,13 @@
   }
 
   .hero-block1 {
-    margin-top: 0 !important;
+    /* margin-top: 0 !important; */
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 4rem;
+    height: 8rem;
   }
 
   .hero-block1 h2 {
