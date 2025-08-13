@@ -277,3 +277,42 @@
     background-size: cover;
   }
 }
+/* Мобильная альбомная ориентация */
+@media (max-width: 1024px) and (orientation: landscape) {
+  .hero-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* вместо height */
+    height: 100dvh; /* новое свойство — учитывает динамическую высоту окна */
+    overflow: hidden; /* чтобы не было прокрутки */
+  }
+
+  .hero-background {
+    background-position: center center !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%; /* ключевой момент — растянуть фон на всю высоту контейнера */
+  }
+
+  .hero-block1 {
+    margin-top: 0 !important;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* чтобы текст центрировался по вертикали */
+  }
+
+  .hero-block1 h2 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+
+  /* Скрываем кнопки */
+  .hero-grid-1 {
+    display: none !important;
+  }
+}
