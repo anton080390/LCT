@@ -1,7 +1,6 @@
 .navLink {
   text-decoration: none;
   color: #ffffff;
-  /* margin: rem 0rem; */
   text-transform: uppercase;
   font-weight: 700;
   cursor: pointer;
@@ -10,11 +9,36 @@
 .isActive {
   color: rgb(249, 247, 247);
 }
+
 .navLink:hover,
 .navLink:focus {
   color: #bcbbbb;
-  /* font-weight: 700; */
 }
+
+/* Стили для ссылок внутри Drawer (мобильная версия) */
+.drawerNavLink {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem;
+  display: block;
+  font-size: 1.2rem; /* базовый размер для планшетов */
+}
+
+/* Увеличиваем шрифт для маленьких экранов */
+@media (max-width: 600px) {
+  .drawerNavLink {
+    font-size: 1.5rem; /* на мобильных */
+  }
+}
+
+.drawerNavLink:hover,
+.drawerNavLink:focus {
+  color: #bcbbbb;
+}
+
 html,
 body {
   max-width: 100vw;

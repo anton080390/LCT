@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../pages/about.css";
 import "../pages/style.css";
-import a1 from "../images/about/a1.jpeg";
-import a2 from "../images/about/a2.jpeg.webp";
+import a1 from "../images/about/a1.jpg";
+import a2 from "../images/about/a2.jpeg";
 import a3 from "../images/about/a3.jpeg";
 import a4 from "../images/about/a4.jpg";
 import a5 from "../images/about/a5.jpg";

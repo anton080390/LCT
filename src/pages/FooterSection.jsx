@@ -51,7 +51,7 @@ function Footer() {
       <Grid
         item
         xs={12}
-        md={9}
+        md={12}
         className="contacts"
         sx={{ textAlign: "center" }}
       >
@@ -99,7 +99,7 @@ function Footer() {
         </div>
       </Grid>
 
-      <Grid item xs={12} md={3} sx={{ textAlign: "center", padding: "0" }}>
+      {/* <Grid item xs={12} md={3} sx={{ textAlign: "center", padding: "0" }}>
         <p style={{ fontSize: "2rem" }}>Напишіть нам</p>
         <form onSubmit={sendEmail} className="contact-form">
           <div className="form-group">
@@ -132,7 +132,7 @@ function Footer() {
             </Button>
           </div>
         </form>
-      </Grid>
+      </Grid> */}
 
       <Grid item xs={12}>
         <iframe
