@@ -77,3 +77,15 @@ span {
     height: 100%;
   }
 }
+@media (max-width: 1024px) and (orientation: landscape) {
+  .contacts {
+    justify-content: center;
+    margin-right: 0;
+  }
+  .contact-block {
+    margin-right: 0;
+  }
+  .grid-container {
+    height: 100%;
+  }
+}
