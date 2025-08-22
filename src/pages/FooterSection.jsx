@@ -56,38 +56,17 @@ function Footer() {
         sx={{ textAlign: "center" }}
       >
         <div className="contact-block">
-          <p>Логистика:</p>
+          <p>Перевалка, зберігання, логистіка:</p>
           <a href={`tel:${phoneNumber}`} className="contact-link">
             <PhoneIcon className="icon" />
-            <span>380500000000</span>
+            <span>380504379866</span>
           </a>
         </div>
         <div className="contact-block">
-          <p>Лабораторія:</p>
+          <p>Відділ з адміністративної роботи:</p>
           <a href={`tel:${phoneNumber}`} className="contact-link">
             <PhoneIcon className="icon" />
-            <span>380500000000</span>
-          </a>
-        </div>
-        <div className="contact-block">
-          <p>Складське зберігання:</p>
-          <a href={`tel:${phoneNumber}`} className="contact-link">
-            <PhoneIcon className="icon" />
-            <span>380500000000</span>
-          </a>
-        </div>
-        <div className="contact-block">
-          <p>Перевалка вантажів:</p>
-          <a href={`tel:${phoneNumber}`} className="contact-link">
-            <PhoneIcon className="icon" />
-            <span>380500000000</span>
-          </a>
-        </div>
-        <div className="contact-block">
-          <p>Бухгалтерія:</p>
-          <a href={`tel:${phoneNumber}`} className="contact-link">
-            <PhoneIcon className="icon" />
-            <span>380500000000</span>
+            <span>380503944865</span>
           </a>
         </div>
         <div className="contact-block">

@@ -81,6 +81,7 @@ span {
   .contacts {
     justify-content: center;
     margin-right: 0;
+    flex-wrap: wrap;
   }
   .contact-block {
     margin-right: 0;
