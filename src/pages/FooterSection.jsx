@@ -117,7 +117,7 @@ function Footer() {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2119.687678032721!2d31.986486173832223!3d46.84926025592055!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756196273208!5m2!1sru!2sua"
           width="100%"
-          height="450"
+          // Maxheight="450"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
