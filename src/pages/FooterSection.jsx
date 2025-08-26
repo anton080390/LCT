@@ -1,4 +1,4 @@
-import Grid from "@mui/material/Grid";
+import { Grid, Box } from "@mui/material";
 import "./footer.css";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -114,14 +114,23 @@ function Footer() {
       </Grid> */}
 
       <Grid item xs={12}>
-        <iframe
+        <Box
+          component="iframe"
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2119.687678032721!2d31.986486173832223!3d46.84926025592055!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756196273208!5m2!1sru!2sua"
-          width="100%"
-          // Maxheight="450"
-          allowfullscreen=""
+          sx={{
+            width: "100%",
+            border: 0,
+            height: {
+              xs: "300px", // мобильные
+              sm: "350px", // планшеты
+              md: "450px", // десктоп
+            },
+            maxHeight: "450px",
+          }}
+          allowFullScreen
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </Grid>
     </Grid>
   );
