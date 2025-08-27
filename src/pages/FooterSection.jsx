@@ -113,17 +113,16 @@ function Footer() {
         </form>
       </Grid> */}
 
-      <Grid item xs={12}>
+      <Grid item xs={12} sx={{ padding: 0 }}>
         <Box
           component="iframe"
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2119.687678032721!2d31.986486173832223!3d46.84926025592055!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756196273208!5m2!1sru!2sua"
           sx={{
             width: "100%",
-            border: 0,
             height: {
-              xs: "300px", // мобильные
-              sm: "350px", // планшеты
-              md: "450px", // десктоп
+              xs: "300px",
+              sm: "350px",
+              md: "450px",
             },
             maxHeight: "450px",
           }}
