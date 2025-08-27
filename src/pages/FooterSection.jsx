@@ -56,7 +56,7 @@ function Footer() {
         sx={{ textAlign: "center" }}
       >
         <div className="contact-block">
-          <p>Перевалка, зберігання, логістіка:</p>
+          <p>Перевалка, зберігання, логістика:</p>
           <a href={`tel:${phoneNumber}`} className="contact-link">
             <PhoneIcon className="icon" />
             <span>380504379866</span>
