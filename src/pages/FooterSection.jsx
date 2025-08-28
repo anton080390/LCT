@@ -114,7 +114,7 @@ function Footer() {
       </Grid> */}
 
       <Grid item xs={12} sx={{ padding: 0 }}>
-        <h1>Ми у Миколаєві</h1>
+        <h1>Ми у Миколаєві:</h1>
         <Box
           component="iframe"
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2119.687678032721!2d31.986486173832223!3d46.84926025592055!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756196273208!5m2!1sru!2sua"
@@ -133,7 +133,7 @@ function Footer() {
         />
       </Grid>
       <Grid item xs={12} sx={{ padding: 0 }}>
-        <h1>Ми у Ізмаїлі</h1>
+        <h1>Ми у Ізмаїлі:</h1>
         <Box
           component="iframe"
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d892.2127310707041!2d28.806905617225194!3d45.35492711211867!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756364095243!5m2!1sru!2sua"
