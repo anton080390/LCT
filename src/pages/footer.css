@@ -3,7 +3,7 @@
   padding: 1rem;
   text-align: center;
   color: white;
-  height: 100vh;
+  height: 100%;
 }
 
 .contacts {
@@ -74,7 +74,7 @@ span {
     margin-right: 0;
   }
   .grid-container {
-    height: 100vh;
+    height: 100%;
   }
 }
 @media (max-width: 1024px) and (orientation: landscape) {
