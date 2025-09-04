@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eba6f1aa.css",
+    "main.js": "/static/js/main.0743c240.js",
+    "static/js/453.8b154e4d.chunk.js": "/static/js/453.8b154e4d.chunk.js",
+    "static/media/i4.jpg": "/static/media/i4.e75ef04d3f57f0341d7d.jpg",
+    "static/media/nika-tera.jpg": "/static/media/nika-tera.df9adb262a0ffa969534.jpg",
+    "static/media/i3.jpeg": "/static/media/i3.7949d377c4649bf50c49.jpeg",
+    "static/media/i1.jpeg": "/static/media/i1.5d7b0dbb0dd1026337ae.jpeg",
+    "static/media/i2.jpeg": "/static/media/i2.8f37b384d55ee1902eec.jpeg",
+    "static/media/s4.jpeg": "/static/media/s4.bb001a5f52e096a628ce.jpeg",
+    "static/media/i5.jpeg": "/static/media/i5.6387602be95b7f62b6de.jpeg",
+    "static/media/s3.jpeg": "/static/media/s3.5dfc19c2213a6edacb9e.jpeg",
+    "static/media/a4.jpg": "/static/media/a4.411b5e578facdac1b535.jpg",
+    "static/media/a3.jpeg": "/static/media/a3.9c2fbb11e6369621aed0.jpeg",
+    "static/media/s1.jpeg": "/static/media/s1.465340be5500caa850de.jpeg",
+    "static/media/a1.jpg": "/static/media/a1.7ff9921bf4b128e08b23.jpg",
+    "static/media/a2.jpeg": "/static/media/a2.3c15bac91a6b427f2f94.jpeg",
+    "static/media/s2.jpeg": "/static/media/s2.3c15bac91a6b427f2f94.jpeg",
+    "static/media/a5.jpg": "/static/media/a5.9b0124e0bd8bcdac18ba.jpg",
+    "static/media/s5.jpeg.webp": "/static/media/s5.jpeg.e90d560bb03343705322.webp",
+    "index.html": "/index.html",
+    "main.eba6f1aa.css.map": "/static/css/main.eba6f1aa.css.map",
+    "main.0743c240.js.map": "/static/js/main.0743c240.js.map",
+    "453.8b154e4d.chunk.js.map": "/static/js/453.8b154e4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eba6f1aa.css",
+    "static/js/main.0743c240.js"
+  ]
+}

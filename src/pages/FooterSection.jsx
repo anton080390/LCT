@@ -117,7 +117,7 @@ function Footer() {
         <h1>Працюємо у Миколаєві:</h1>
         <Box
           component="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2119.687678032721!2d31.986486173832223!3d46.84926025592055!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756196273208!5m2!1sru!2sua"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18830.09930135226!2d31.98165362865043!3d46.853377584007376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cdc84e00bc09%3A0x423e2668d6f735d9!2z0KLQntCSICLQm9GW0LrQstGW0LQg0JrQsNGA0LPQviDQotC10YDQvNGW0L3QsNC7Ig!5e1!3m2!1sru!2sua!4v1756982063164!5m2!1sru!2sua"
           sx={{
             width: "100%",
             height: {
@@ -136,7 +136,7 @@ function Footer() {
         <h1>Працюємо у Ізмаїлі:</h1>
         <Box
           component="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d892.2127310707041!2d28.806905617225194!3d45.35492711211867!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1756364095243!5m2!1sru!2sua"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8912.573696266205!2d28.807033755519633!3d45.355389424378785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b76fa1f063e9b7%3A0x74c5eb9eaa442d7!2z0KLQntCSICLQm9GW0LrQstGW0LQg0JrQsNGA0LPQviDQotC10YDQvNGW0L3QsNC7Ig!5e1!3m2!1sru!2sua!4v1756982155622!5m2!1sru!2sua"
           sx={{
             width: "100%",
             height: {
