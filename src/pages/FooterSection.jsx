@@ -59,7 +59,7 @@ function Footer() {
           <p>Перевалка, зберігання, логістика:</p>
           <a href={`tel:${phoneNumber}`} className="contact-link">
             <PhoneIcon className="icon" />
-            <span>380504379866</span>
+            <span>380992399565</span>
           </a>
         </div>
         <div className="contact-block">
