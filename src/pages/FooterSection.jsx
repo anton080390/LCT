@@ -117,7 +117,7 @@ function Footer() {
         <h1>Працюємо у Миколаєві:</h1>
         <Box
           component="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d18830.09930135226!2d31.98165362865043!3d46.853377584007376!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5cdc84e00bc09%3A0x423e2668d6f735d9!2z0KLQntCSICLQm9GW0LrQstGW0LQg0JrQsNGA0LPQviDQotC10YDQvNGW0L3QsNC7Ig!5e1!3m2!1sru!2sua!4v1756982063164!5m2!1sru!2sua"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5770.158918328081!2d31.9849421!3d46.8487075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b76fa1f063e9b7%3A0x74c5eb9eaa442d7!2z0KLQntCSICLQm9GW0LrQstGW0LQg0JrQsNGA0LPQviDQotC10YDQvNGW0L3QsNC7Ig!5e1!3m2!1sru!2sua!4v1757427624657!5m2!1sru!2sua"
           sx={{
             width: "100%",
             height: {
