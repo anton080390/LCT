@@ -8,7 +8,8 @@ import Button from "@mui/material/Button";
 import SendIcon from "@mui/icons-material/Send";
 
 function Footer() {
-  const phoneNumber = "+380503948155";
+  const phoneNumber = "+380992399565";
+  const phoneNumber1 = "+380503944865";
   const emailAddress = "atkachenko@gmail.com";
   const companyDescription = "Наші контакти:";
   const sendEmail = (e) => {
@@ -64,7 +65,7 @@ function Footer() {
         </div>
         <div className="contact-block">
           <p>Відділ з адміністративної роботи:</p>
-          <a href={`tel:${phoneNumber}`} className="contact-link">
+          <a href={`tel:${phoneNumber1}`} className="contact-link">
             <PhoneIcon className="icon" />
             <span>380503944865</span>
           </a>
@@ -117,7 +118,7 @@ function Footer() {
         <h1>Працюємо у Миколаєві:</h1>
         <Box
           component="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5770.158918328081!2d31.9849421!3d46.8487075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b76fa1f063e9b7%3A0x74c5eb9eaa442d7!2z0KLQntCSICLQm9GW0LrQstGW0LQg0JrQsNGA0LPQviDQotC10YDQvNGW0L3QsNC7Ig!5e1!3m2!1sru!2sua!4v1757427624657!5m2!1sru!2sua"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2885.0824605921957!2d31.983595326521097!3d46.848651621130365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2sua!4v1758019804632!5m2!1sru!2sua"
           sx={{
             width: "100%",
             height: {
